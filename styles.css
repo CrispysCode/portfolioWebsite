@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgrey;
+}
+#watermark {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+ul  {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+li a {
+    font-size: 2rem;
+    color: black;
+}
