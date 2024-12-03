@@ -6,25 +6,45 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: lightgrey;
-}
-#watermark {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 2rem;
+ display: flex;
+ justify-content: space-between;
+ margin-left: 15rem;
+ margin-right: 15rem;
+ align-items: center;
 }
 
 ul  {
     display: flex;
-    gap: 16px;
+    gap: 60px;
     list-style: none;
 }
+
 li a {
     font-size: 2rem;
     color: black;
+    text-decoration: none;
+}
+
+/* Main Section */
+.top.container {
+    border: 3px solid red;
+    display: flex;
+    width: 100%;
+}
+#me {
+    width: 350px;
+    border-radius: 45px;
+}
+.top.left {
+    margin-left: 15rem;
+    font-size: 1.25rem;
+}
+
+.top.right {
+    margin-right: 15rem;
+}
+.logos {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
 }
