@@ -26,8 +26,12 @@ li a {
 }
 
 /* Main Section */
+.container {
+    display: flex;
+    border: 3px solid green;
+}
+
 .top.container {
-    border: 3px solid red;
     display: flex;
     width: 100%;
 }
@@ -47,4 +51,26 @@ li a {
     padding-top: 20px;
     display: flex;
     gap: 15px;
+}
+
+/* Project Section */
+
+.project-list {
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.25rem;
+    justify-content: space-between;
+   
+}
+
+/* Contact Section */
+.contact-left {
+    margin-left: 15rem;
+    border: 2px solid red;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
 }
